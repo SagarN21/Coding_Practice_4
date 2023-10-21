@@ -1,0 +1,53 @@
+
+.characterItem {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+  }
+  
+  .selectedItem {
+    border: 2px solid green;
+    background-color: #f0f0f0;
+  }
+
+  .favoriteButton {
+    background-color: #ffcc00; /* Yellow background color */
+    color: #333; /* Text color */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+     margin-left:1%;
+  }
+  
+  .favoriteButton:hover {
+    background-color: #ffdb4d; /* Lighter yellow on hover */
+  }
+  
+  .favorite {
+    background-color: #ff4444; /* Red background color for favorited items */
+    color: #fff; /* White text color for favorited items */
+  }
+  
+  .favorite:hover {
+    background-color: #ff0000; /* Darker red on hover for favorited items */
+  }
+
+  .deleteButton {
+    background-color: #ccc; /* Light gray background color */
+    color: #333; /* Text color */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 8px; /* Add margin to separate the buttons */
+  }
+  
+  .deleteButton:hover {
+    background-color: #999; /* Slightly darker gray on hover */
+  }
